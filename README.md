@@ -1,0 +1,2 @@
+# Game-Panda-Head-Beatdown
+这是一款本人仿照外星人入侵制作的python小游戏，利用了pygame游戏库。跟以前我们在诺基亚手机上玩的坦克大战JavaScript游戏一模一样。
