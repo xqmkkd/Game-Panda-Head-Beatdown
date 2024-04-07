@@ -13,7 +13,7 @@
 
 ------------------------------------------------------
 ### 添加环境变量 
-想使用`pyinstaller`命令需要添加环境变量。在`高级系统设置`中![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/160c1cc8-cbf7-4000-bfaa-d42c005e22e8)点击`环境变量` $\Rightarrow$ `系统变量` $\Rightarrow$ `找到Path`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/0bd9d6ad-0ac5-47df-a128-f5af87accb65)。点开Path编辑添加python的目录（装过python的应该已经添加过了）$\Rightarrow$ 添加`pyinstaller.exe`的目录。  
+想使用`pyinstaller`命令需要添加环境变量。在`高级系统设置`中![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/160c1cc8-cbf7-4000-bfaa-d42c005e22e8)点击`环境变量` $\Rightarrow$ `系统变量` $\Rightarrow$ `找到Path`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/0bd9d6ad-0ac5-47df-a128-f5af87accb65)。点开Path编辑添加python的目录（装过python的应该已经添加过了）→ 添加`pyinstaller.exe`的目录。  
 用`Everything`很快找到![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/793a3212-b694-4ea9-867e-29b950258985)，然后复制目录![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/94677c30-bf00-4f2c-86b6-63ec09bfd1ca)添加到`Path`里：![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/aa4f2aff-3935-4fc6-b402-9c35664862b7)。至此`pyinstaller`环境变量应该添加好了。  
 
 ---------------------------------------------
