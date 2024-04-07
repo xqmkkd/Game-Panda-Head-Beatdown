@@ -17,7 +17,8 @@
 
 <br/><br/>
 ---------------------------------------------
-#### 打包项目  
+#### 打包项目
+-
 然后进入项目文件的目录，输入打包命令`pyinstall -F 主项目文件.py 其他项目文件(允许多个).py`。  
 比如我现在需要打包![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/6765294a-402e-415f-892b-3cb717f79c32) `alien.py`,`alien_invasion.py`,`bullet.py`,`button.py`,`game_functions.py`,`game_stats.py`,`scoreboard.py`,`settings.py`,`ship.py`这9个文件,其中`alien_invasion.py`是主文件。那么我就输入命令`pyinstaller -F alien_invasion.py alien.py bullet.py button.py game_functions.py game_stats.py scoreboard.py settings.py ship.py`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/3fb85eb8-c341-4efb-8bcd-1f77740d79d6)`Successfully`就代表打包成功。  
 回到文件夹发现多了一个`\dist`文件![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/5f050b13-6987-40d3-ac6e-44a9e2421788)里面就有我们需要的`.exe`,![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/8f9911ef-95ab-4bb3-8f08-f9d2357850a7)我这是打包了两次演示给你们看所以有两个。  
@@ -29,9 +30,6 @@
   ### v1.0  Game-Panda-Head-Beatdown 暴打熊猫头
   
 这是一款本人仿照外星人入侵制作的`暴打熊猫头`python小游戏，利用了pygame游戏库。跟以前我们在诺基亚手机上玩的坦克大战Java小游戏一模一样。参考资料为Eric Matthes编著的`Python编程从入门到实践`的项目1：外星人入侵  
-## v2.0 版本更新
-游戏版本更新为可执行文件.exe，用户双击`PandaHeadBeatDown.exe`即可使用。使用方法不变。
-#### 注意事项：需要将\image文件夹一同下载下来，和`PandaHeadBeatDown.exe`处于同一目录。同样可以调换\image文件夹里的照片内容（文件名不变），使得游戏中的图片发生变更。
 
 ### 使用方法：你可以将`\images`文件夹中的`alien.jpg`换成任何`你讨厌的人的照片`（不建议）  
 ============================================================================================================
