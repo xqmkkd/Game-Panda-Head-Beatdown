@@ -37,7 +37,11 @@
 ---------------------------------------------
 ### 打包项目
 然后进入项目文件的目录，输入打包命令`pyinstall -F 主项目文件.py 其他项目文件(允许多个).py`。  
-比如我现在需要打包![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/6765294a-402e-415f-892b-3cb717f79c32) `alien.py`,`alien_invasion.py`,`bullet.py`,`button.py`,`game_functions.py`,`game_stats.py`,`scoreboard.py`,`settings.py`,`ship.py`这9个文件,其中`alien_invasion.py`是主文件。那么我就输入命令`pyinstaller -F alien_invasion.py alien.py bullet.py button.py game_functions.py game_stats.py scoreboard.py settings.py ship.py`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/3fb85eb8-c341-4efb-8bcd-1f77740d79d6)`Successfully`就代表打包成功。  
+比如我现在需要打包![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/6765294a-402e-415f-892b-3cb717f79c32) `alien.py`,`alien_invasion.py`,`bullet.py`,`button.py`,`game_functions.py`,`game_stats.py`,`scoreboard.py`,`settings.py`,`ship.py`这9个文件,其中`alien_invasion.py`是主文件。那么我就输入命令`pyinstaller -F alien_invasion.py alien.py bullet.py button.py game_functions.py game_stats.py scoreboard.py settings.py ship.py`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/3fb85eb8-c341-4efb-8bcd-1f77740d79d6)`Successfully`就代表打包成功。    
+<br/><br/>
+如果想用`panda.ico`作为可执行文件的图标，需要加入`-i panda.ico`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/224c0a96-2a65-4f66-9441-38313617232b).我这里已经下载了`Windows Termial`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/fab88440-87f3-4da0-baed-64a384e854c5).比自带的cmd好用一点。
+
+
 回到文件夹发现多了一个`\dist`文件![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/5f050b13-6987-40d3-ac6e-44a9e2421788)里面就有我们需要的`.exe`,![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/8f9911ef-95ab-4bb3-8f08-f9d2357850a7)我这是打包了两次演示给你们看所以有两个。  
 然后把`\image`文件夹复制进去即可使用了~（没有`\image`文件夹就会报错！）  
 
@@ -80,7 +84,7 @@
 
 按`空格键`开火，你就能射杀`熊猫`或者你讨厌的人（不建议）  
 
-按左右键控制你的移动方向。
+按左右键`⬅➡`控制你的移动方向。
 
 你甚至可以在右上角看到你当前的等级和积分。
 
