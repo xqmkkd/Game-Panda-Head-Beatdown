@@ -1,3 +1,13 @@
+# v4.0 超爽版发行💚💚
+加入了背景图片和背景音乐 子弹速度和玩家移动速度 调成了10倍  
+
+#### 注意事项：
+`\music`和`\image`文件夹需要和`PandaHeadBeatDown.exe`处在同一目录下。  
+
+![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/f184d4dc-8f94-40c2-bf32-07a7807a10eb)
+
+
+-----------------------------------------------
 # v3.0 无敌版发行🖤🖤   
 
 将子弹大小改为普通模式的十倍长十倍宽：`self.rect = pygame.Rect(0,0,10*ai_settings.bullet_width,10*ai_settings.bullet_height)`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/8ceb963f-0a94-40f1-9811-ccc2b09625b0)  
