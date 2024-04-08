@@ -1,3 +1,11 @@
+# v3.0 无敌版发行🖤🖤   
+
+将子弹大小改为普通模式的十倍长十倍宽：`self.rect = pygame.Rect(0,0,10*ai_settings.bullet_width,10*ai_settings.bullet_height)`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/8ceb963f-0a94-40f1-9811-ccc2b09625b0)  
+
+将子弹大小改为普通模式的100倍宽：`self.rect = pygame.Rect(0,0,100*ai_settings.bullet_width,ai_settings.bullet_height)`![image](https://github.com/xqmkkd/Game-Panda-Head-Beatdown/assets/143811250/2b9dd4d0-4f50-44fb-aa58-ef1e93c58cab)  
+
+
+------------------------------------------------
 # v2.0 版本更新💜💜
 游戏版本更新为可执行文件.exe，用户双击`PandaHeadBeatDown.exe`即可使用。使用方法不变。
 
